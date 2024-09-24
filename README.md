@@ -22,11 +22,11 @@ camke和opencv按教程安装，均没有出现问题
 
      + 均值滤波
 
-       ![均值滤波](/OpenCV_Project/resources/average_blur_img)
+       ![均值滤波](/OpenCV_Project/resources/average_blur_img.png)
 
      + 高斯滤波
 
-       ![高斯滤波](/OpenCV_Project/resources/gauss_blur_img)
+       ![高斯滤波](/OpenCV_Project/resources/gauss_blur_img.png)
 
    + 特征提取
 
@@ -48,7 +48,7 @@ camke和opencv按教程安装，均没有出现问题
 
        + 二值化
 
-         ![二值化](/OpenCV_Project/resources/binary_img)
+         ![二值化](/OpenCV_Project/resources/binary_img.png)
 
        + 膨胀
 
