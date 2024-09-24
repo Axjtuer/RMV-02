@@ -74,7 +74,7 @@ camke和opencv按教程安装，均没有出现问题
 
        + 旋转35度
 
-         ![旋转](/OpenCV_Project/resources/retated_img.png)
+         ![旋转](/OpenCV_Project/resources/rotated_img.png)
 
        + 裁剪为左上角1/4
 
