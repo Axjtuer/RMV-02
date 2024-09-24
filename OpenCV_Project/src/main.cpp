@@ -53,7 +53,6 @@ int main() {
     }
     cout << "红色区域总面积: " << red_area << endl;
     imwrite("../resources/contours_bounding_box.png", bounding_boximg);
-    //高亮区域处理
     //二值化
     Mat binary;
     threshold(grayimg, binary, 120, 255, THRESH_BINARY); 
