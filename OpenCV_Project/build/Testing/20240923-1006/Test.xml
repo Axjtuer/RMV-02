@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240923-1006-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.16.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="zph-Legion-Y9000P-IAH7H"
+	OSRelease="5.15.0-119-generic"
+	OSVersion="#129~20.04.1-Ubuntu SMP Wed Aug 7 13:07:13 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="14"
+	TotalVirtualMemory="15624"
+	TotalPhysicalMemory="15712"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2900"
+	>
+	<Testing>
+		<StartDateTime>Sep 23 18:32 CST</StartDateTime>
+		<StartTestTime>1727087577</StartTestTime>
+		<TestList/>
+		<EndDateTime>Sep 23 18:32 CST</EndDateTime>
+		<EndTestTime>1727087577</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

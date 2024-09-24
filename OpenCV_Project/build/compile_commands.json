@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/zph/OpenCV_Project/build",
+  "command": "/usr/bin/g++   -isystem /usr/include/opencv4  -g   -o CMakeFiles/OpenCV_Project.dir/src/main.cpp.o -c /home/zph/OpenCV_Project/src/main.cpp",
+  "file": "/home/zph/OpenCV_Project/src/main.cpp"
+}
+]
