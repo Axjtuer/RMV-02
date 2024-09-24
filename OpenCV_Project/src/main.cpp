@@ -39,7 +39,7 @@ int main() {
     findContours(mask,contours,hierarchy,RETR_TREE, CHAIN_APPROX_SIMPLE);
     Mat contourimg = img.clone();
     // 绘制轮廓
-    drawContours(contourimg, contours, -1, Scalar(0, 255, 0), 2, LINE_8, hierarchy, 0);
+    drawContours(contourimg, contours, -1, Scalar(0, 255, 0), 2);
     imwrite("../resources/contourimg.png",contourimg);
     //bounding_box和面积.
     double red_area = 0.0;
