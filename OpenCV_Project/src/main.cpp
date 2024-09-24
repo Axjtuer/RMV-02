@@ -76,14 +76,14 @@ int main() {
     putText(drawing, "This is rm", Point(50, 50), FONT_HERSHEY_SIMPLEX, 1, Scalar(0, 0, 255), 2);   //红色字
     imwrite("../resources/drawing_shapes.png", drawing);
     //图像旋转
-    Point2f center(img.cols / 2.0, img.rows / 2.0);  //绕几何中心旋转
-    Mat rotationMat = getRotationMatrix2D(center, 35, 1.0); //构造旋转矩阵
+    Point2f center(img.cols / 2.0, img.rows / 2.0); 
+    Mat rotationMat = getRotationMatrix2D(center, 35, 1.0); 
     Mat rotated;
-    warpAffine(img, rotated, rotationMat, img.size());  //旋转并保持旋转后图片大小与原图片相同
+    warpAffine(img, rotated, rotationMat, img.size());
     imwrite("../resources/rotated_img.png", rotated);
     //图像裁剪
-    Rect roi(0, 0, img.cols / 2, img.rows / 2); //定义矩形裁减区域
-    Mat cropped = img(roi); //进行裁剪
+    Rect roi(0, 0, img.cols / 2, img.rows / 2);
+    Mat cropped = img(roi);
     imwrite("../resources/cropped_img.png", cropped);
     return 0;
 }
