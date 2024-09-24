@@ -56,7 +56,7 @@ int main() {
     //高亮区域处理
     //二值化
     Mat binary;
-    threshold(grayimg, binary, 120, 255, THRESH_BINARY); //灰度化
+    threshold(grayimg, binary, 120, 255, THRESH_BINARY); 
     imwrite("../resources/binary_img.png", binary);
     //膨胀
     Mat dilated;
